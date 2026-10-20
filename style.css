@@ -1,0 +1,148 @@
+:root {
+  --brand: #1e5aa8;
+  --text: #1a1a1a;
+  --muted: #5a6472;
+  --bg: #ffffff;
+  --line: #e3e8ef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f7fa;
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 16px 48px;
+}
+
+header {
+  background: var(--brand);
+  color: #fff;
+  padding: 28px 16px;
+  margin-bottom: 24px;
+}
+
+header .inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+header .sub {
+  margin-top: 6px;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+main {
+  background: var(--bg);
+  border-radius: 14px;
+  padding: 24px 20px;
+  box-shadow: 0 1px 3px rgba(16, 24, 40, 0.06);
+}
+
+h2 {
+  font-size: 18px;
+  margin: 28px 0 10px;
+  color: var(--brand);
+}
+
+h2:first-child {
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 20px 0 8px;
+}
+
+p {
+  margin: 0 0 14px;
+}
+
+ul,
+ol {
+  margin: 0 0 14px;
+  padding-left: 22px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+.placeholder {
+  background: #fff8e6;
+  border: 1px solid #f0d58c;
+  border-radius: 10px;
+  padding: 14px 16px;
+  color: #7a5c00;
+  font-size: 15px;
+}
+
+.notice {
+  background: #eef4fc;
+  border-left: 4px solid var(--brand);
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin: 0 0 20px;
+  font-size: 15px;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 24px;
+  color: var(--brand);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+footer {
+  max-width: 760px;
+  margin: 24px auto 0;
+  padding: 0 16px;
+  color: var(--muted);
+  font-size: 13px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 15px;
+  }
+  header {
+    padding: 20px 16px;
+  }
+  header h1 {
+    font-size: 19px;
+  }
+  main {
+    padding: 18px 16px;
+    border-radius: 12px;
+  }
+}
