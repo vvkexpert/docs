@@ -1,7 +1,7 @@
 {
   "legal": {
-    "privacy": { "version": 1, "file": "privacy-v1.html", "hash": "b3e88e342c51ccefb950f607dbc690f7eab90dacf894dae24edd258d60387aa5", "major": false },
-    "terms":   { "version": 1, "file": "terms-v1.html",   "hash": "0cafd4da62923731d30e7a3942f7298e1de27e2d989152e4a31618fdbcec42cb", "major": false }
+    "privacy": { "version": 1, "file": "privacy-v1.html", "hash": "cbf5215be47315fec7376a9a4ae974655b39a7c6ff3969727e8bc9e6cc6ad6c6", "major": false },
+    "terms":   { "version": 1, "file": "terms-v1.html",   "hash": "fcae48c64662ca0251cc4c8c554f08c0091ea643756ed792b372a11cebd11b8d", "major": false }
   },
   "updated_at": "2026-10-21T00:00:00Z"
 }
